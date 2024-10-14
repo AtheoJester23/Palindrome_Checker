@@ -1,2 +1,2 @@
-# Panlindrome_Checker
+# Palindrome_Checker
  
