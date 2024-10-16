@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(14, 14, 14);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.PCheck{
+    color: goldenrod;
+    font-family: "Lexend", sans-serif;
+    user-select: none;
+    /* pointer-events: none; */
+}
+
+.PCheck span{
+    display: inline-block;
+    transition: transform 0.3s ease-out;
+    transform: translateY(0px);
+}
+
+.PCheck:hover span{
+    transform: translateY(-10px);
+    /* cursor: pointer; */
+}
+
+#result{
+    color: white;
+}
+
+.theInput{
+    display: flex;
+    gap: 5px;
+}
+
+#text-input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
+
+#check-btn{
+    padding: 10px;
+}
